@@ -1,0 +1,24 @@
+<p>The LOOP package provides a library of classes implemented using its models.
+All classes included in its library were created or derived from actual implementations used in either academic or commercial applications, and many are reused in more than one application.
+Therefore, even though the classes presented here are provided mainly as use examples of LOOP models they are very useful for construction of software applications.</p>
+
+<p>Most of these classes were initially created as Lua conventional modules and were later converted to classes so it is straightforward to convert them back to modules that don't lay on LOOP.
+Some of these classes can even be used as an instance of itself thus avoiding the creation of singleton objects.
+However, in some scenarios, it is interesting to be able to have multiple instances.
+The LOOP Class Library is organized in six groups as presented below.</p>
+
+<h2><a name="compiler">Compiling</a></h2>
+
+<p>This group contains classes that implement utilities for parsing and compiling code.
+The examples are a utility to execute selected pieces of a Lua code and a parser of simple expressions composed by values and operators.
+Although these classes were actually devised for very specific applications they are likely to be reused in other contexts.</p>
+
+<dl>
+
+<dt><a href="compiler/Arguments.html">Argument Processor</a></dt>
+<dd>
+	<p>Class of objects that work as functions that takes string arguments passed as <em>varargs</em> and process them as command-line arguments to extract possible command-line options that may precede the actual arguments.
+	This class is useful to process command-line arguments passed to a Lua script.</p>
+</dd>
+
+</dl>
